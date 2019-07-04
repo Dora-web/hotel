@@ -19,7 +19,9 @@ body{
 h3{
 	font-weight:800;
 }
-
+@media (max-width:414px){
+	h3{font-size:26px;}
+}
 /*-------------------------*/
 /* $button
 ---------------------------*/
@@ -136,7 +138,46 @@ h3{
 .element{
 	padding-top:12px;
 }
-
+@media (max-width:1024px){
+	.room{
+		max-width:800px;
+	}
+	label{
+		padding-left:30px;
+	}
+}
+@media (max-width:768px){
+	.r-type{
+		width:348px;
+	}
+}
+@media (max-width:414px){
+	.homeTitle{
+		font-size:60px;
+	}
+	.r-type{
+		width:360px;
+		height:480px;
+		margin-left:10px;
+	}
+	.room{
+		margin-top:40px;
+	}
+}
+@media (max-width:375px){
+	.r-type{
+		width:300px;
+		height:440px;
+		margin-left:16px;
+	}
+}
+@media (max-width:320px){
+	.r-type{
+		width:260px;
+		height:400px;
+		/*margin-left:16px;*/
+	}
+}
 /*-------------------------
 /* $Color 
 ---------------------------*/
